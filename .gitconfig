@@ -1,0 +1,19 @@
+[core]
+	excludesfile = /home/felix/.gitignore
+	editor = code --wait
+[user]
+	name = Felix Razykov
+	email = frazykov@gmail.com
+[alias]
+	c = commit
+	co = checkout
+	cob = checkout -b
+	s = status -s
+	m = merge --ff-only
+	d = diff --minimal
+	ps = push
+	pl = pull
+	f = fetch
+	fom = fetch origin master:master
+	r = rebase
+	amend = commit --amend --no-edit
